@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title> ExpressionEvaluation</title>
+    <link href="expression.css" rel="stylesheet" type="text/css">
+    <script src ='expression.js'></script>
+
+</head>
+
+<body>
+
+    <div id = "outerBox">
+        <div id = "instructionPara">
+            <p> Fill in the below fields for evaluation</p>
+        </div>
+        <br>
+        <div id ="formBox">
+            <form>
+                <input type="number" id="numb1" autofocus placeholder="Number1">
+                <select id = Opearator>
+                    <option value ="+">+</option>
+                    <option value ="-">-</option>
+                    <option value ="*">*</option>
+                    <option value ="/">/</option> 
+                </select>
+                <input type="number" id="numb2" autofocus placeholder="Number2">
+                <button type="button" id = "resultButton" onclick="getFormValues()"> = </button>
+                <output type="number" id="output"> 
+
+            </form>
+        </div>
+        <div class ="part2">
+            <h3> Enter the expression to evaluate</h3>
+        </div>
+        <div id = "secondForm">
+            <form>
+                <input type="text" id="expression" autofocus placeholder="Expression...">
+                <button type="button" id = "resultButton" onclick="getFormExpressionValues()"> = </button>
+                <output type="number" id="expOutput">
+            </form>
+        </div>
+    </div>
+
+
+</body>
