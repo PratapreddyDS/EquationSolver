@@ -1,0 +1,35 @@
+#outerBox{
+    margin:auto;
+    justify-content: center;
+    width: 35%;
+    height: 300px;
+    border: 3px solid crimson;
+}
+
+#instructionPara{
+
+    margin:auto;
+    display:flex;
+    justify-content: center;
+
+}
+
+#formBox{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.part2{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+#secondForm{
+    
+    display:flex;
+    justify-content: center;
+
+}
